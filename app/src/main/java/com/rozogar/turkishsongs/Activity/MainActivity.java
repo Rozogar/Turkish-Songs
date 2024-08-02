@@ -41,7 +41,7 @@ private Button btnExit;
         btnAbout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Programer: Ahmad Rozogar 1403/5/10",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, R.string.programer_ahmad_rozogar_1403_5_10,Toast.LENGTH_SHORT).show();
 
             }
         });

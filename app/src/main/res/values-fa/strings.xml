@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">آهنگ های ترکی</string>
+    <string name="songs">آهنگ ها</string>
+    <string name="about_us">در باره ما</string>
+    <string name="exit">خروج</string>
+    <string name="play">پخش</string>
+    <string name="pause">توقف</string>
+    <string name="previous">قبلی</string>
+    <string name="next">بعدی</string>
+    <string name="programer_ahmad_rozogar_1403_5_10">برنامه نویس: احمد روزگار 1403/5/10</string>
+    <string name="song_01">آهنگ 01</string>
+    <string name="song_02">آهنگ 02</string>
+    <string name="song_03">آهنگ 03</string>
+    <string name="song_04">آهنگ 04</string>
+    <string name="song_05">آهنگ 05</string>
+    <string name="song_06">آهنگ 06</string>
+    <string name="song_07">آهنگ 07</string>
+    <string name="song_08">آهنگ 08</string>
+    <string name="song_09">آهنگ 09</string>
+    <string name="song_10">آهنگ 10</string>
+    <string name="song_11">آهنگ 11</string>
+    <string name="song_12">آهنگ 12</string>
+    <string name="song_13">آهنگ 13</string>
+    <string name="song_14">آهنگ 14</string>
+</resources>
