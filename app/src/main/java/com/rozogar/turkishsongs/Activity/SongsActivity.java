@@ -21,14 +21,33 @@ public class SongsActivity extends AppCompatActivity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_songs);
             setupView();
-            fillingUP();
+            fillingUp();
+            showUp();
 
             settingUP();
 
 
         }
 
-    private void fillingUP() {
+    private void showUp() {
+        music = new ArrayList<>();
+        music.add(new Music(R.drawable.pic, "Song 01",R.raw.song01));
+        music.add(new Music(R.drawable.pic, "Song 02",R.raw.song02));
+        music.add(new Music(R.drawable.pic, "Song 03",R.raw.song03));
+        music.add(new Music(R.drawable.pic, "Song 04",R.raw.song04));
+        music.add(new Music(R.drawable.pic, "Song 05",R.raw.song05));
+        music.add(new Music(R.drawable.pic, "Song 06",R.raw.song06));
+        music.add(new Music(R.drawable.pic, "Song 07",R.raw.song07));
+        music.add(new Music(R.drawable.pic, "Song 08",R.raw.songs08));
+        music.add(new Music(R.drawable.pic, "Song 09",R.raw.song09));
+        music.add(new Music(R.drawable.pic, "Song 10",R.raw.song10));
+        music.add(new Music(R.drawable.pic, "Song 11",R.raw.song11));
+        music.add(new Music(R.drawable.pic, "Song 12",R.raw.song12));
+        music.add(new Music(R.drawable.pic, "Song 13",R.raw.song13));
+        music.add(new Music(R.drawable.pic, "Song 14",R.raw.song14));
+    }
+
+    private void fillingUp() {
             music = new ArrayList<>();
             music.add(new Music(R.drawable.pic, "Song 01"));
             music.add(new Music(R.drawable.pic, "Song 02"));
@@ -40,7 +59,10 @@ public class SongsActivity extends AppCompatActivity {
             music.add(new Music(R.drawable.pic, "Song 08"));
             music.add(new Music(R.drawable.pic, "Song 09"));
             music.add(new Music(R.drawable.pic, "Song 10"));
-
+            music.add(new Music(R.drawable.pic, "Song 11"));
+            music.add(new Music(R.drawable.pic, "Song 12"));
+            music.add(new Music(R.drawable.pic, "Song 13"));
+            music.add(new Music(R.drawable.pic, "Song 14"));
 
     }
 
