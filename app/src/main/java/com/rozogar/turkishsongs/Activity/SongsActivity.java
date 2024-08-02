@@ -44,7 +44,7 @@ public class SongsActivity extends AppCompatActivity {
         music.add(new Music(R.drawable.pic, getString(R.string.song_11),R.raw.song11));
         music.add(new Music(R.drawable.pic, getString(R.string.song_12),R.raw.song12));
         music.add(new Music(R.drawable.pic, getString(R.string.song_13),R.raw.song13));
-        music.add(new Music(R.drawable.pic, getString(R.string.song_14),R.raw.song14));
+
     }
 
     private void fillingUp() {
@@ -63,6 +63,7 @@ public class SongsActivity extends AppCompatActivity {
             music.add(new Music(R.drawable.pic, getString(R.string.song_12)));
             music.add(new Music(R.drawable.pic, getString(R.string.song_13)));
             music.add(new Music(R.drawable.pic, getString(R.string.song_14)));
+
 
     }
 
